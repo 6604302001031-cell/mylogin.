@@ -3,8 +3,7 @@
   "builds": [
     {
       "src": "app.py",
-      "use": "@vercel/python",
-      "config": { "maxDuration": 15 }
+      "use": "@vercel/python"
     }
   ],
   "routes": [
@@ -14,6 +13,3 @@
     }
   ]
 }
-Flask
-google-auth
-requests
